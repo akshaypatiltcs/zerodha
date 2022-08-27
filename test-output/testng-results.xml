@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[running verify user ID]]>
+    </line>
+    <line>
+      <![CDATA[logout the application]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-26T16:29:08 IST" name="Suite" finished-at="2022-08-26T16:29:16 IST" duration-ms="8582">
+    <groups>
+    </groups>
+    <test started-at="2022-08-26T16:29:08 IST" name="Test" finished-at="2022-08-26T16:29:16 IST" duration-ms="8582">
+      <class name="POM_DDF_with_Testng.KiteTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_with_Testng.KiteTest@4dbb42b7]" started-at="2022-08-26T16:29:08 IST" name="openBrowser" finished-at="2022-08-26T16:29:14 IST" duration-ms="6151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="logintoapp()[pri:0, instance:POM_DDF_with_Testng.KiteTest@4dbb42b7]" started-at="2022-08-26T16:29:14 IST" name="logintoapp" finished-at="2022-08-26T16:29:14 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method signature="verifyID()[pri:0, instance:POM_DDF_with_Testng.KiteTest@4dbb42b7]" started-at="2022-08-26T16:29:14 IST" name="verifyID" finished-at="2022-08-26T16:29:16 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verify user ID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyID -->
+        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:POM_DDF_with_Testng.KiteTest@4dbb42b7]" started-at="2022-08-26T16:29:16 IST" name="logoutApplication" finished-at="2022-08-26T16:29:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:POM_DDF_with_Testng.KiteTest@4dbb42b7]" started-at="2022-08-26T16:29:16 IST" name="closetheBrowser" finished-at="2022-08-26T16:29:16 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closetheBrowser -->
+      </class> <!-- POM_DDF_with_Testng.KiteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
